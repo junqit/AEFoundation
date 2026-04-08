@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "git.", :tag => "#{spec.version}" }
 
-  spec.source_files = 'AEFoundation/**/*.swift'
+  spec.source_files = '**/*.swift'
 
   spec.pod_target_xcconfig = {
     'DEFINES_MODULE' => 'YES'
